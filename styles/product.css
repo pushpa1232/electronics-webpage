@@ -1,0 +1,103 @@
+/* product-cards */
+#product-cards {
+    margin-top: 100px;
+    width: 100%;
+}
+#product-cards h1 {
+    color: rgb(253, 206, 148);
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 2px solid rgb(253, 206, 148);
+}
+#product-cards .card h3 {
+    font-size: 20px;
+    color: black;
+}
+#product-cards .card p {
+    font-size: 12px;
+    margin-top: 5px;
+    color: black;
+}
+.star i {
+    margin-left: 5px;
+    font-size: 13px;
+}
+.checked {
+    color: #ffc800;
+}
+#product-cards .card h2 {
+    font-size: 20px;
+    color: black;
+    margin-top: 20px;
+}
+#product-cards .card h2 span {
+    float: right;
+    color: black;
+    cursor: pointer;
+}
+@media screen and (max-width:2000px) {
+    #product-cards .card h3 {
+        font-size: 15px;
+    }
+}
+/* product-cards */
+
+/* other-cards */
+#other-cards {
+    margin-top: 30px;
+}
+#other-cards .card {
+    background-color: #a9a9a92b;
+}
+#other-cards .card h3 {
+    margin-top: 30px;
+    color: black;
+    margin-left: 10px;
+    letter-spacing: 3px;
+}
+#other-cards .card h5 {
+    margin-top: 15px;
+    font-weight: 100px;
+    font-size: 18px;
+    color: black;
+    margin-left: 10px;
+    letter-spacing: 3px;
+    border-bottom: 2px solid black;
+    width: 220px;
+}
+#other-cards .card p {
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: 15px;
+    color: black;
+    margin-left: 10px;
+    letter-spacing: 3px;
+}
+#shopnow {
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    letter-spacing: 3px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+@media screen and (max-width:1000px) {
+    #other-cards .card h3 {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    #other-cards .card h5 {
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    #other-cards .card p {
+        margin-top: 0px;
+        width: 120px;
+        height: 30px;
+        font-size: 16px;
+    }
+}
+/* other-cards */
