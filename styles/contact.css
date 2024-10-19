@@ -37,3 +37,39 @@
     background-color: cadetblue;
     color: white;
 }
+
+/* Styles for input fields and textarea */
+#contact input[type="text"],
+#contact textarea {
+    transition: all 0.3s ease;
+    border: 1px solid #ccc;
+}
+
+/* Hover effect for input fields and textarea */
+#contact input[type="text"]:hover,
+#contact textarea:hover {
+    border-color: cadetblue;
+    box-shadow: 0 0 5px rgba(95, 158, 160, 0.5);
+}
+
+/* Focus effect for input fields and textarea */
+#contact input[type="text"]:focus,
+#contact textarea:focus {
+    border-color: cadetblue;
+    box-shadow: 0 0 8px rgba(95, 158, 160, 0.7);
+    outline: none;
+}
+
+/* Hover effect for the submit button */
+.messagebtn button:hover {
+    background-color: cadetblue;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Active effect for the submit button */
+.messagebtn button:active {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
